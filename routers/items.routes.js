@@ -1,3 +1,13 @@
+/*****************************************************
+ * ROUTER DE ITEMS 
+ * - Define las rutas para las operaciones CRUD de ítems
+ * - Todas las rutas están protegidas por el middleware de autenticación
+ * - GET /items: Obtiene todos los ítems
+ * - POST /items: Crea un nuevo ítem
+ * - PUT /items/:id: Actualiza un ítem existente por ID
+ * - DELETE /items/:id: Elimina un ítem por ID
+*****************************************************/
+
 import express from 'express';
 import { verifyToken } from '../middlewares/auth.middleware.js';
 import {

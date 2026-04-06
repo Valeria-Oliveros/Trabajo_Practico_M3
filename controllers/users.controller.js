@@ -1,3 +1,10 @@
+/*****************************************************
+ * CONTROLADOR DE USUARIOS 
+ * - Maneja el registro e inicio de sesión de usuarios
+ * - registerUser: Registra un nuevo usuario con contraseña hasheada
+ * - loginUser: Verifica credenciales y devuelve un token JWT
+*****************************************************/
+
 import jwt from 'jsonwebtoken';
 import { hashPassword, comparePassword } from '../services/auth.service.js';
 import { readJSON, writeJSON } from '../services/jsonService.js';

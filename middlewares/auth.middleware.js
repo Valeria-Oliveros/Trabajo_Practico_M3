@@ -1,3 +1,9 @@
+/*****************************************************
+ * MIDDLEWARE DE AUTENTICACIÓN 
+ * - Verifica el token JWT en las solicitudes protegidas
+ * - verifyToken: Middleware que valida el token y permite acceso a rutas protegidas
+*****************************************************/
+
 import jwt from 'jsonwebtoken';
 
 export const verifyToken = (req, res, next) => {

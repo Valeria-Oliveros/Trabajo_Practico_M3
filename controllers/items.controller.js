@@ -1,3 +1,12 @@
+/*****************************************************
+ * CONTROLADOR DE ITEMS 
+ * - Maneja las operaciones CRUD para los ítems
+ * - getItems: Obtiene todos los ítems
+ * - createItem: Crea un nuevo ítem
+ * - updateItem: Actualiza un ítem existente
+ * - deleteItem: Elimina un ítem por ID
+*****************************************************/
+
 import { readJSON, writeJSON } from '../services/jsonService.js';
 
 const dataFile = 'data';

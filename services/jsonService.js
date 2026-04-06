@@ -1,3 +1,10 @@
+/*****************************************************
+ * SERVICIO DE LECTURA Y ESCRITURA DE JSON 
+ * - Proporciona funciones para leer y escribir datos en archivos JSON
+ * - readJSON: Lee un archivo JSON y devuelve su contenido como objeto
+ * - writeJSON: Escribe un objeto en un archivo JSON, formateado con indentación
+*****************************************************/
+
 import fs from 'fs';
 import path from 'path';
 
